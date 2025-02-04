@@ -75,7 +75,7 @@
     }
 
     .person-name {
-        order: -1;
+        order: 1;
     }
 
     .profile-content__category--hidden-mobile {
@@ -106,3 +106,10 @@
 
 
 /*student uitwerking*/
+
+@media only screen and (min-width: 600px) {
+    body {
+        width: 100%;
+        background-color: darkseagreen;
+    }
+}
